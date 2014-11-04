@@ -316,7 +316,7 @@
 #endif
 
 // uncomment one of the following lines for RAMPS v1.3 or v1.0, comment both for v1.2 or 1.1
-// #define RAMPS_V_1_3
+#define RAMPS_V_1_3
 // #define RAMPS_V_1_0
 
 #if MOTHERBOARD == 33 || MOTHERBOARD == 34
