@@ -494,7 +494,10 @@
   #if MOTHERBOARD == 33 || MOTHERBOARD == 35 || MOTHERBOARD == 67 || MOTHERBOARD == 68
     #define FAN_PIN            9 // (Sprinter config)
   #else
-    #define FAN_PIN            4 // IO pin. Buffer needed
+    //#define FAN_PIN            4 // IO pin. Buffer needed
+
+    // Koz: setting FAN_PIN for Azteeg X3 12V fan
+    #define FAN_PIN            5
   #endif
 
   #if MOTHERBOARD == 77
